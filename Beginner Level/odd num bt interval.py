@@ -1,5 +1,4 @@
-x=raw_input("")
-y=raw_input("")
+x, y = raw_input().split()
 if x.isdigit() and y.isdigit():
 	x=int(x)
 	y=int(y)
